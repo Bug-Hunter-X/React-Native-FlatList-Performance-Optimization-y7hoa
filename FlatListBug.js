@@ -1,0 +1,1 @@
+In React Native, using a flatlist with a large dataset can cause performance issues if not optimized correctly.  A common mistake is failing to implement `keyExtractor` which leads to inefficient re-renders.  Another issue involves improper use of `getItemLayout` which prevents the flatlist from making efficient virtualization calculations.
